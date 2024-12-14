@@ -14,3 +14,10 @@ class Solution {
         return -1;
     }
 }
+
+//다른 사람의 문제 풀이
+class Solution {
+    public int solution(String A, String B) {
+        return (B+B).indexOf(A);
+    }
+}
