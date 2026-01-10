@@ -5,7 +5,6 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
         String b = sc.next();
-        String str = a + b;
-        System.out.println(str);
+        System.out.println(a+b);
     }
 }
