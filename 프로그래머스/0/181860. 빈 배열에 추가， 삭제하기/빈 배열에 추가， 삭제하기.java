@@ -19,10 +19,6 @@ class Solution {
                 }
             }
         }
-        int[] result = new int[dq.size()];
-        for(int i = 0; i < result.length; i++) {
-            result[i] = dq.pollFirst();
-        }
-        return result;
+        return dq.stream().mapToInt(Integer::intValue).toArray();
     }
 }
